@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use mysql as the database for Active Record
-gem 'mysql2', '>= 0.3.13', '< 0.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -19,6 +18,7 @@ gem 'cancan'
 gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'sidekiq'
+gem 'mysql2', '0.3.21'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
